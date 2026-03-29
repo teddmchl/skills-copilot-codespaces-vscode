@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-commerce-video",
+  "version": "1.0.0",
+  "description": "Remotion demo video for WhatsApp Commerce OS",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx remotion studio src/index.jsx",
+    "render": "npx remotion render src/index.jsx DemoVideo out/demo.mp4"
+  },
+  "keywords": [],
+  "author": "Tedd Onyesero",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/cli": "^4.0.440",
+    "@remotion/google-fonts": "^4.0.440",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.440"
+  },
+  "remotion": {
+    "entryPoint": "src/index.jsx"
+  }
+}
